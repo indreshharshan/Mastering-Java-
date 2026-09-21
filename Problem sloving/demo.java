@@ -1,13 +1,12 @@
-class Animal{
-    void eat(){
-        System.out.println("Animal eat");
+class demo {
+  public static void main(String[] args) {
+      
+  }
+    void display() {
+        System.out.println("Student");
     }
-}
-class Dog extends Animal{
-    void run(){
-        System.out.println("Dog is run");
+
+    void display(String name) {
+        System.out.println(name);
     }
-}
-class Cat extends Dog{
-    
 }
