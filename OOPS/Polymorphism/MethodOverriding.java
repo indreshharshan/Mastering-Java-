@@ -17,8 +17,11 @@ public class MethodOverriding {
 
     public static void main(String[] args) {
 
-        Animal a = new Dog();
+        Animal a       = new Dog();
+    //  Compile time   //  run time
+        Dog b = new Dog();
 
         a.sound();
+        b.sound();
     }
 }
